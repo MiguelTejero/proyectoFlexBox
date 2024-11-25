@@ -1,0 +1,195 @@
+/* Estilo general para todos los elementos */
+* {
+    font-family: "Lora", serif; /* Define la fuente para todo el documento */
+}
+
+/* Estilo general para el cuerpo de la página */
+body {
+    margin: 0px; /* Elimina el margen predeterminado */
+}
+
+/* Títulos dentro de secciones */
+section h1 {
+    font-size: 2em; /* Tamaño de fuente para los títulos */
+}
+
+/* Estilo para las imágenes dentro del div en la navegación */
+.nav div img {
+    width: 5em; /* Ancho de las imágenes */
+    height: 5em; /* Altura de las imágenes */
+}
+
+/* Imágenes dentro de la galería */
+.galeria img {
+    height: 15em; /* Altura de cada imagen */
+    width: 24em; /* Ancho de cada imagen */
+    margin: 0.5em; /* Espaciado alrededor de las imágenes */
+}
+
+/* Fondo de la sección "Sobre mí" */
+.sobre_mi {  
+    background-color: rgb(5, 5, 28); /* Color de fondo oscuro */
+}
+
+/* Estilo para spans dentro de la sección "Sobre mí" */
+.sobre_mi span {
+    color: orangered; /* Color naranja rojizo para destacar */
+}
+
+/* Botones dentro de "Sobre mí" */
+.sobre_mi button {
+    background-color: rgb(5, 5, 28); /* Fondo oscuro */
+    color: white; /* Texto blanco */
+}
+
+/* Imágenes dentro de "Sobre mí" */
+.sobre_mi img {
+    height: 30em; /* Altura de las imágenes */
+}
+
+/* Espaciado interno para el segundo div dentro de artículos de "Sobre mí" */
+.sobre_mi article div:nth-child(2) {
+    padding: 2em; /* Espaciado interno de 2em */
+}
+
+/* Texto dentro de la sección hero */
+.hero {
+    color: white; /* Texto blanco */
+}
+
+/* Fondo y posición fija para la navegación */
+.nav {
+    background-color: rgb(5, 5, 28); /* Fondo oscuro */
+    position: fixed; /* Fija la barra en la parte superior */
+}
+
+/* Enlaces dentro de la barra de navegación */
+.nav ul a {
+    text-decoration: none; /* Elimina el subrayado */
+    list-style: none; /* Elimina las viñetas */
+    color: white; /* Texto blanco */
+}
+
+/* Divs dentro de la sección hero */
+.hero div {
+    width: 20em; /* Ancho del div */
+    padding: 10%; /* Espaciado interno del 10% */
+}
+
+/* Spans dentro de la sección hero */
+.hero div span {
+    color: #ff4500; /* Color naranja brillante */
+}
+
+/* Títulos dentro de "Sobre mí" */
+.sobre_mi h1 {
+    color: white; /* Texto blanco */
+}
+
+/* Estilo del recuadro con id "recuadro" */
+#recuadro {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+}
+
+/* Fondo y color para la sección servicios */
+.servicios {
+    background-color: rgb(5, 5, 28); /* Fondo oscuro */
+    color: white; /* Texto blanco */
+}
+
+/* Colores específicos para spans dentro de servicios */
+.servicios h1 span {
+    color: orangered; /* Color naranja rojizo */
+}
+
+/* Divs dentro de servicios */
+.servicios div {
+    padding: 2em; /* Espaciado interno */
+    background-color: white; /* Fondo blanco */
+    color: rgb(5, 5, 28); /* Texto oscuro */
+}
+
+/* Iconos dentro de servicios */
+.servicios i {
+    font-size: 5em; /* Tamaño de los íconos */
+}
+
+/* Fondo de la sección contacto */
+.contacto {
+    background-color: rgb(5, 5, 28); /* Fondo oscuro */
+}
+
+/* Artículos dentro de contacto */
+.contacto article {
+    padding: 4em; /* Espaciado interno */
+    background-color: white; /* Fondo blanco */
+}
+
+/* Títulos dentro de la galería */
+.galeria h1 {
+    color: rgb(5, 5, 28); /* Texto oscuro */
+}
+
+/* Títulos dentro de contacto */
+.contacto h1 {
+    font-size: 2em; /* Tamaño del texto */
+    color: rgb(5, 5, 28); /* Texto oscuro */
+}
+
+/* Títulos dentro de habilidades */
+.habilidades h1 {
+    color: rgb(5, 5, 28); /* Texto oscuro */
+}
+
+/* Spans dentro de habilidades */
+.habilidades span {
+    color: orangered; /* Color naranja rojizo */
+}
+
+/* Botones dentro de contacto */
+.contacto button {
+    background-color: rgb(5, 5, 28); /* Fondo oscuro */
+    color: white; /* Texto blanco */
+}
+
+/* Fondo del pie de página */
+footer {
+    background-color: rgb(5, 5, 28); /* Fondo oscuro */
+    font-size: 2em; /* Tamaño del texto */
+    color: white; /* Texto blanco */
+}
+
+/* Botones dentro de la sección hero */
+.hero button {
+    background-color: orangered; /* Fondo naranja rojizo */
+    padding: 0.6em; /* Espaciado interno */
+}
+
+/* Enlaces dentro de los botones de hero */
+.hero button a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: white; /* Texto blanco */
+    font-size: 2em; /* Tamaño del texto */
+}
+
+/* Iconos dentro del pie de página */
+footer i {
+    font-size: 2.2em; /* Tamaño de los íconos */
+}
+
+/* Contenedor para barras de progreso */
+.contenedor_progreso {
+    width: 40em; /* Ancho del contenedor */
+    height: 1.8em; /* Altura del contenedor */
+    margin: 1.8em; /* Margen externo */
+}
+
+/* Estilo para la barra de progreso */
+.barra {
+    height: 100%; /* Altura completa del contenedor */
+    background-color: rgb(5, 5, 28); /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    line-height: 1.8em; /* Centra verticalmente el texto */
+    font-weight: bold; /* Negrita para el texto */
+}

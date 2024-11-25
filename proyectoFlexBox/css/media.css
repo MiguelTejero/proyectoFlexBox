@@ -1,0 +1,62 @@
+/* Estilos aplicados cuando el ancho de pantalla es de 768px o menos */
+@media (max-width: 768px) {
+    .nav {
+        display: flex; /* Cambia el layout a flexbox */
+        flex-direction: column; /* Organiza los elementos de forma vertical */
+        height: 80vh; /* Ajusta la altura del contenedor al 80% de la altura de la ventana */
+        width: 100%; /* Ocupa el 100% del ancho de la pantalla */
+        align-items: center; /* Centra los elementos horizontalmente */
+        justify-content: center; /* Centra los elementos verticalmente */
+        position: inherit; /* Usa la posición heredada del padre */
+    }
+    .nav ul {
+        display: flex; /* Aplica flexbox al ul */
+        flex-direction: column; /* Organiza los elementos de la lista verticalmente */
+    }
+    .nav div img {
+        height: 10em; /* Ajusta la altura de la imagen a 10 unidades em */
+        width: 10em; /* Ajusta el ancho de la imagen a 10 unidades em */
+    }
+    .sobre_mi article {
+        display: flex; /* Usa flexbox para el layout */
+        flex-direction: column; /* Organiza los elementos en columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+    }
+    .sobre_mi img {
+        border-radius: 2em; /* Bordes redondeados con un radio de 2em */
+        padding: 0em; /* Sin espacio interno alrededor de la imagen */
+        margin: 0em; /* Sin margen externo */
+        height: em; /* ¡Error aquí! Falta definir un valor para la altura */
+    }
+    .servicios div {
+        height: 50vh; /* Ajusta la altura de los div al 50% de la ventana */
+    }
+    .servicios div p {
+        font-size: 0.7em; /* Ajusta el tamaño de la fuente a 0.7 unidades em */
+    }
+    .contacto article {
+        width: 18em; /* Define el ancho del artículo a 18 unidades em */
+    }
+}
+
+/* Estilos aplicados cuando el ancho de pantalla es de 580px o menos */
+@media (max-width: 580px) {
+    .sobre_mi img {
+        border-radius: 2em; /* Bordes redondeados con un radio de 2em */
+        padding: 0em; /* Sin espacio interno alrededor de la imagen */
+        margin: 0em; /* Sin margen externo */
+        height: 20em; /* Ajusta la altura de la imagen a 20 unidades em */
+    }
+    .servicios article {
+        align-items: center; /* Centra los elementos del artículo horizontalmente */
+        display: flex; /* Usa flexbox para el layout */
+        flex-direction: column; /* Organiza los elementos en columna */
+    }
+    .servicios article div {
+        width: 12em; /* Define el ancho del div a 12 unidades em */
+        margin: 1em; /* Aplica un margen externo de 1 unidad em */
+    }
+    .contenedor_progreso {
+        width: 24em; /* Ajusta el ancho del contenedor a 24 unidades em */
+    }
+}

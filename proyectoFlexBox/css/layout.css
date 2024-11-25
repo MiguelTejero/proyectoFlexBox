@@ -1,0 +1,137 @@
+/* Estilo para la sección hero */
+.hero {
+    display: flex; /* Aplica flexbox al contenedor */
+    flex-direction: column; /* Organiza los elementos en columna */
+    height: 60vh; /* Define la altura al 60% de la ventana */
+}
+
+/* Estilo para la barra de navegación */
+.nav {
+    display: flex; /* Aplica flexbox */
+    align-items: center; /* Alinea verticalmente los elementos */
+    position: absolute; /* Coloca la barra en una posición fija relativa a su contenedor */
+    justify-content: space-around; /* Distribuye los elementos uniformemente con espacio entre ellos */
+}
+
+/* Estilo para la lista de navegación */
+.nav ul {
+    display: flex; /* Aplica flexbox */
+    list-style: none; /* Elimina los puntos de lista por defecto */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: space-between; /* Espacia uniformemente los elementos dentro del ul */
+}
+
+/* Estilo para la sección "Sobre mí" */
+.sobre_mi {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los artículos dentro de "Sobre mí" */
+.sobre_mi article {
+    display: flex; /* Aplica flexbox */
+    justify-content: space-between; /* Espacia los elementos dentro del artículo */
+}
+
+/* Estilo específico para el segundo div dentro de "Sobre mí" */
+.sobre_mi article div:nth-child(2) {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: left; /* Alinea los elementos a la izquierda */
+    width: 50%; /* Ocupa el 50% del ancho disponible */
+}
+
+/* Estilo para la galería */
+.galeria {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los divs dentro de la galería */
+.galeria div {
+    display: flex; /* Aplica flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a varias filas */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para la sección de servicios */
+.servicios {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los artículos dentro de servicios */
+.servicios article {
+    display: flex; /* Aplica flexbox */
+    justify-content: space-around; /* Espacia los elementos dentro del artículo */
+}
+
+/* Estilo para los divs dentro de los artículos de servicios */
+.servicios article div {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para la sección de habilidades */
+.habilidades {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los divs dentro de habilidades */
+.habilidades div {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: space-between; /* Espacia uniformemente los elementos */
+}
+
+/* Estilo para la sección de contacto */
+.contacto {
+    display: flex; /* Aplica flexbox */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los artículos dentro de contacto */
+.contacto article {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para el contenedor del formulario */
+#contenido_form {
+    display: flex; /* Aplica flexbox */
+    flex-direction: row; /* Organiza los elementos en fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los formularios */
+form {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+/* Estilo para los inputs del formulario */
+form input {
+    margin: 10px; /* Agrega un margen externo de 10px */
+}
+
+/* Estilo para los botones del formulario */
+form button {
+    margin: 10px; /* Agrega un margen externo de 10px */
+}
+
+/* Estilo para el pie de página */
+footer {
+    display: flex; /* Aplica flexbox */
+    flex-direction: row; /* Organiza los elementos en fila */
+    justify-content: space-around; /* Espacia uniformemente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}

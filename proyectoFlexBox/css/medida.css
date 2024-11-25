@@ -1,0 +1,166 @@
+/* Estilo general para la barra de navegación */
+.nav {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 15vh; /* Define la altura al 15% de la ventana */
+    display: flex; /* Aplica flexbox */
+    align-items: center; /* Centra verticalmente los elementos */
+    position: absolute; /* La barra está en posición absoluta en su contenedor */
+    justify-content: space-around; /* Espacia los elementos uniformemente */
+}
+
+/* Estilo para la lista dentro de la navegación */
+.nav ul {
+    width: 150vh; /* Define un ancho específico para la lista */
+    font-size: 1.5em; /* Aumenta el tamaño de fuente */
+    display: flex; /* Aplica flexbox */
+    list-style: none; /* Elimina los estilos de lista predeterminados */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Espacia uniformemente los elementos */
+}
+
+/* Estilo para la sección "Sobre mí" */
+.sobre_mi {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 5%; /* Agrega espacio interno del 5% alrededor del contenido */
+}
+
+/* Estilo para los artículos dentro de "Sobre mí" */
+.sobre_mi article {
+    display: flex; /* Aplica flexbox */
+    justify-content: space-between; /* Espacia uniformemente los elementos */
+}
+
+/* Estilo para el segundo div dentro de los artículos de "Sobre mí" */
+.sobre_mi article div:nth-child(2) {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: left; /* Alinea los elementos a la izquierda */
+    width: 40%; /* Reduce el ancho del div al 40% */
+}
+
+/* Estilo para los botones dentro de los divs de "Sobre mí" */
+.sobre_mi article div button {
+    width: 50%; /* Reduce el ancho del botón al 50% */
+    margin-top: 20%; /* Agrega un margen superior del 20% del contenedor */
+}
+
+/* Estilo para el recuadro específico con id "recuadro" */
+#recuadro {
+    width: 50%; /* Ocupa la mitad del ancho del contenedor */
+}
+
+/* Estilo para la sección galería */
+.galeria {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 5%; /* Agrega espacio interno del 5% */
+}
+
+/* Estilo para los divs dentro de galería */
+.galeria div {
+    display: flex; /* Aplica flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en filas adicionales */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+/* Estilo para la sección servicios */
+.servicios {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 5%; /* Agrega espacio interno del 5% */
+}
+
+/* Estilo para los artículos dentro de servicios */
+.servicios article {
+    display: flex; /* Aplica flexbox */
+    justify-content: space-around; /* Espacia uniformemente los elementos */
+}
+
+/* Estilo para los divs dentro de los artículos de servicios */
+.servicios article div {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    width: 18%; /* Reduce el ancho del div al 18% */
+}
+
+/* Estilo para la sección habilidades */
+.habilidades {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 5%; /* Agrega espacio interno del 5% */
+}
+
+/* Estilo para los divs dentro de habilidades */
+.habilidades div {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: space-between; /* Espacia uniformemente los elementos */
+}
+
+/* Estilo para las barras de progreso dentro de habilidades */
+.habilidades progress {
+    width: 70vh; /* Ajusta el ancho de las barras al 70% de la altura de la ventana */
+}
+
+/* Estilo para la sección de contacto */
+.contacto {
+    display: flex; /* Aplica flexbox */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    padding: 5%; /* Agrega espacio interno del 5% */
+}
+
+/* Estilo para los artículos dentro de contacto */
+.contacto article {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center; /* Centra horizontalmente los elementos */
+    padding: 5%; /* Agrega espacio interno del 5% */
+    width: 20%; /* Ajusta el ancho al 20% */
+}
+
+/* Estilo para el formulario de contacto */
+#contenido_form {
+    display: flex; /* Aplica flexbox */
+    flex-direction: row; /* Organiza los elementos en fila */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+/* Estilo general para los formularios */
+form {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilo para los inputs dentro del formulario */
+form input {
+    margin: 10px; /* Agrega un margen externo de 10px */
+}
+
+/* Estilo para los botones dentro del formulario */
+form button {
+    margin: 10px; /* Agrega un margen externo de 10px */
+}
+
+/* Estilo para el pie de página */
+footer {
+    display: flex; /* Aplica flexbox */
+    flex-direction: row; /* Organiza los elementos en fila */
+    justify-content: space-around; /* Espacia uniformemente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 20vh; /* Define la altura al 20% de la ventana */
+}
+
+/* Estilo para la sección hero */
+.hero {
+    display: flex; /* Aplica flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    height: 100vh; /* Define la altura al 100% de la ventana */
+}

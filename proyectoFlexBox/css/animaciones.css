@@ -1,0 +1,110 @@
+/* Estilo para la sección hero */
+.hero {
+    background-image: url(../imagenes/fondito.jpg); /* Aplica una imagen de fondo */
+    background-size: cover; /* La imagen cubre todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Estilo para la barra de navegación */
+.nav {
+    box-shadow: 0px 2px 5px rgb(255, 255, 255); /* Aplica una sombra blanca debajo de la barra */
+}
+
+/* Estilo para las imágenes dentro de divs de la galería */
+.galeria div img {
+    border-radius: 7%; /* Aplica bordes redondeados con un radio del 7% */
+}
+
+/* Estilo para la sección "Sobre mí" */
+.sobre_mi {
+    box-shadow: 0px -10px 100px orangered; /* Aplica una sombra naranja desde abajo */
+}
+
+/* Estilo para el recuadro específico con el id "recuadro" */
+#recuadro {
+    border: 5px solid orangered; /* Aplica un borde naranja de 5px */
+    border-radius: 5%; /* Redondea ligeramente las esquinas */
+}
+
+/* Estilo para la sección galería */
+.galeria {
+    box-shadow: 0px 1px 10px white; /* Aplica una sombra blanca sutil */
+}
+
+/* Estilo para las imágenes dentro de la galería */
+.galeria img {
+    border: 5px solid orangered; /* Aplica un borde naranja de 5px alrededor de las imágenes */
+}
+
+/* Estilo para las imágenes dentro de la sección "Sobre mí" */
+.sobre_mi img {
+    border-top-left-radius: 7%; /* Redondea la esquina superior izquierda */
+    border-bottom-left-radius: 5%; /* Redondea la esquina inferior izquierda */
+}
+
+/* Estilo para la sección de servicios */
+.servicios {
+    box-shadow: 0px -5px 10px orangered; /* Aplica una sombra naranja desde abajo */
+}
+
+/* Estilo para los divs dentro de servicios */
+.servicios div {
+    border: 5px solid orangered; /* Aplica un borde naranja de 5px */
+    border-radius: 10%; /* Redondea las esquinas al 10% */
+}
+
+/* Estilo para la sección de habilidades */
+.habilidades {
+    border: 5px solid orangered; /* Aplica un borde naranja de 5px */
+}
+
+/* Estilo para los artículos dentro de contacto */
+.contacto article {
+    border: 5px solid orangered; /* Aplica un borde naranja de 5px */
+    border-radius: 10%; /* Redondea las esquinas al 10% */
+}
+
+/* Estilo para el pie de página */
+footer {
+    box-shadow: 0px 0px 50px orangered; /* Aplica una sombra difusa naranja alrededor */
+}
+
+/* Estilo para los botones dentro de hero */
+.hero button {
+    border-top-left-radius: 20%; /* Redondea la esquina superior izquierda del botón */
+    border-bottom-right-radius: 30%; /* Redondea la esquina inferior derecha del botón */
+    border: solid 2px white; /* Aplica un borde blanco de 2px */
+}
+
+/* Estilo para los encabezados h1 dentro del pie de página */
+footer h1 {
+    text-shadow: 3px 3px 5px orangered; /* Aplica una sombra naranja al texto */
+}
+
+/* Estilo al pasar el mouse sobre los elementos de la lista de navegación */
+.nav ul li:hover {
+    color: orangered; /* Cambia el color del texto a naranja */
+    border-bottom: 5px solid orangered; /* Agrega un subrayado naranja */
+}
+
+/* Estilo al pasar el mouse sobre los botones en hero */
+.hero button:hover {
+    background-color: white; /* Cambia el fondo del botón a blanco */
+    border: 2px solid orangered; /* Cambia el borde a naranja */
+}
+
+/* Estilo para los enlaces dentro de los botones en hero al pasar el mouse */
+.hero button:hover a {
+    color: orangered; /* Cambia el color del enlace a naranja */
+}
+
+/* Estilo para las imágenes dentro de la barra de navegación */
+.nav div img {
+    border-radius: 50%; /* Hace las imágenes completamente redondeadas */
+}
+
+/* Estilo para el contenedor de progreso */
+.contenedor_progreso {
+    border: 0.2em solid orangered; /* Aplica un borde naranja de 0.2em */
+    border-radius: 0.6em; /* Redondea las esquinas con un radio de 0.6em */
+}
